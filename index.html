@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Republic of Gamers || Home</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shourtcut icon" href="assets/roglogoss.png">
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html" class="logo"><img src="assets/flogo.png" alt=""></a>
+        <div>
+            <ul class="menu">
+              <li><a href="#main">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="order.html">ORDER NOW</a></li>
+            </ul>
+        </div>
+        <a href="" class="logout">asus</a>
+    </nav>
+
+    <section id="main">
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img src="assets/1 copy.png" style="width:100%;height: 90vh;">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img src="assets/2.png" style="width:100%;height: 90vh;">               
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img src="assets/3.png" style="width:100%;height: 90vh;">                
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="assets/4.png" style="width:100%;height: 90vh;">                
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="assets/5.png" style="width:100%;height: 90vh;">                
+        </div>
+       </div>
+       <br>
+
+   </section>
+
+    <section id="about">
+        <div class="about-media">
+            <a href="detail4.html"><img src="assets/h733.png" alt=""></a>
+        </div>
+        <div class="about">
+            <h1>ROG</h1>
+            <h2> ZEPHYRUS G14 GA401</h2>
+            <p>Dynamic and ready to travel, the pioneering ROG Zephyrus G14 is the world’s most powerful 14-inch Windows 10 Pro gaming laptop. Outclass the competition with up to an 8-core AMD Ryzen™ 9 4900HS CPU and potent GeForce RTX™ 2060 GPU that speed through everyday multitasking and gaming. Customize your fit with either a 120Hz gaming display or high-resolution WQHD panel.</p>
+        </div>
+    </section>
+
+    <section id="product">
+      <div class="product-title">
+        <h1>PRODUCT</h1>
+      </div>
+      <div class="product-media">
+        <a href="detail.html"><img src="assets/603.png" alt="">
+        <br>ROG ZEPHYRUS M16 GU603</a>
+        <br>
+        <p>World’s First 4-Sided Super-Narrow Bezels<br><br> <input type="button" onclick="pindah('detail.html')" value="Read More"> </p>
+      </div>  
+      <div class="product-media">
+        <a href="detail2.html"><img src="assets/1qe.png" alt="">
+        <br>ROG FLOW X13 - GV301QE</a>
+        <br>
+        <p>World's Most Powerful 14" gaming laptop <br><br> <input type="button" onclick="pindah('detail2.html')" value="Read More"> </p>
+      </div>
+      <div class="product-media">
+        <a href="detail3.html"><img src="assets/533.png" alt="">
+        <br>ROG STRIX SCAR 15 G533</a>
+        <br>
+        <p>Most powerful with optical mechanical keyboard <br><br> <input type="button" onclick="pindah('detail3.html')" value="Read More"> </p>
+      </div>
+    </section>
+
+    <hr>
+    <footer>
+        <div class="footer-content">
+            <h3>REPUBLIC OF GAMERS</h3>
+            <p>Our relentless drive to sharpen the cutting edge has reshaped the world of gaming technology. By leading the charge to adopt the latest technologies, ROG sets standards across the entire industry of gaming systems and PC components.</p>
+            <ul class="socials">
+                <li><a href="#" ><img src="assets/facebook.svg" alt=""></a></li>
+                <li><a href="#" ><img src="assets/twitter.svg" alt=""></a></li>
+                <li><a href="#" ><img  src="assets/google.svg" alt=""></a></li>
+                <li><a href="#" ><img src="assets/youtube.svg" alt=""></a></li>
+                <li><a href="#" ><img src="assets/linkedin.svg" alt=""></a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+</body>
+ <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 2000);
+        }
+
+        function pindah(url) {
+            window.location = url;
+        }
+    </script>
+</html>

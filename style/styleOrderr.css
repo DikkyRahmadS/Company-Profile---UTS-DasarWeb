@@ -1,0 +1,147 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    margin-top: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+  }
+  
+  ul {
+    padding-top: 8px;
+    list-style: none !important;
+  }
+  
+  a {
+    text-decoration: none !important;
+    color: #fff;
+  }
+  
+  nav {
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    align-items: center;
+    letter-spacing: 1.5px;
+    background-color: #1e1e1e;
+    padding: 15px;
+    height: 43px;
+    margin-bottom: 70px;
+  }
+  
+  .logo {
+    font-weight: bold;
+    color: #fff;
+    font-size: 23px;
+  }
+  
+  .logo:hover {
+    color: red !important;
+    transition: all ease 0.2s;
+  }
+
+  .logo img{
+    width: 150px;
+    height: 50px;
+  }
+  
+  
+  .menu {
+    display: flex;
+  }
+  
+  .menu li a {
+    color: #fff;
+    padding: 8px;
+  }
+  
+  .menu li a:hover {
+    background-color: #fff;
+    color: red !important;
+    border-radius: 3px;
+    transition: all ease 0.4s;
+  }
+  
+  .logout {
+    color: #fff;
+  }
+  
+  .logout:hover {
+    color: red;
+    transition: all ease 0.4s;
+  }
+  
+  #form{
+      height: 50vh;
+      padding-left: 150px;
+      padding-right: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  form{
+      width: 80%;
+  }
+
+  form h2{
+      font-size: 30px;
+      letter-spacing: 1.5px;
+  }
+
+  form p{
+      text-transform: uppercase;
+      letter-spacing: 1px;
+  }
+
+  form span{
+      font-size: 10px;
+      text-transform: uppercase;
+      color: #1e1e1e;
+  }
+
+  .input{
+      width: 100%;
+      height: 30px;
+      border-radius: 5px;
+      border: 0.7px solid black;
+      font-size: 14px;
+  }
+
+  .input-alamat{
+      width: 100%;
+      height: 50px;
+      border-radius: 5px;
+      border: 0.7px solid black;
+      font-size: 14px;
+  }
+
+  .input-multiple{
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    border: 0.7px solid black;
+    font-size: 14px;
+}
+
+    
+    .button{
+        margin-top: 10px;
+        background-color: #1e1e1e;
+        border-radius: 20px;
+        color: #f4f7ff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: none;
+        height: 35px;
+        width: 120px;
+        margin-bottom: 10px;
+    }   
+
+    .button:hover{
+        background-color: #5b5b5b;
+        transition: all ease 0.4s;
+    }

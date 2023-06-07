@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/styleOrderr.css">
+    <link rel="shourtcut icon" href="assets/roglogoss.png">
+    <title>Republic of Gamers || ORDER</title>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html" class="logo"><img src="assets/flogo.png" alt=""></a>
+        <div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="order.html">ORDER NOW</a></li>
+            </ul>
+        </div>
+        <a href="" class="logout">asus</a>
+    </nav>
+
+    <section id="form" style="padding-top: 90px;">
+        <form method="post" action="order.php">
+            <h2>FORM ORDER</h2>
+            <p>Name</p>
+            <input type="text" name="nama" class="input" /><br />
+            <p>Date</p><input type="date" name="tanggal" class="input" /><br />
+            <p>Address</p>
+            <input type="text" name="alamat" class="input-alamat" /><br />
+            <p>The Type</p>
+
+            <select name="jenis" class="input-alamat">
+                <option value=" ">-- Select Type --</option>
+                <option value="ROGZEPHYRUSG14">ROG ZEPHYRUS G14 GA401</option>
+                <option value="ROGZEPHYRUSM16">ROG ZEPHYRUS M16 GU603</option>
+                <option value="ROGSTRIXSCAR">ROG FLOW X13 - GV301QE</option>
+                <option value="ROGFLOWX13">ROG STRIX SCAR 15 G533</option>
+            </select>
+            <br />
+            <div class="tombol">
+                <br>
+            <input type="submit" name="submit" value="Submit" class="button" />
+            <input type="reset" class="button">
+            </div>
+        </form>
+    </section>
+
+    
+</body>
+
+</html>
+

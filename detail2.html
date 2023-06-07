@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/styleDetail.css">
+    <link rel="shourtcut icon" href="assets/roglogoss.png">
+    <title>Republic of Gamers || Details Product</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo"><img src="assets/flogo.png" alt=""></a>
+        <div>
+            <ul class="menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="order.html">ORDER NOW</a></li>
+            </ul>
+        </div>
+        <a href="" class="logout">asus</a>
+    </nav>
+
+    <section id="details">
+        <div class="image-details">
+            <h1></h1>
+        </div>
+        <div class="image-details">
+            <img src="assets/1qe.png" alt="">
+        </div>
+        <div class="image-details">
+            <h1></h1>
+        </div>
+    </section>
+
+    <section id="desc-details">
+        <div class="desc">
+            <h1>ROG FLOW X13 - GV301QE</h1>
+            <p>A new experience for playing Windows 10 games is brought to you by the powerful, flexible and portable ROG Flow X13 2-in-1 gaming laptop. This gaming laptop comes with the latest AMD Ryzen™ 9 5980HS processor and GeForce® GTX GPU. The optional XG Mobile eGPU can boost graphics up to GeForce RTX™ 3080. Enhance your gaming experience with a choice of 120Hz FHD displays. With the Supernova Edition which is equipped with a cool colored ROG nameplate. Follow and unleash your creativity anywhere, anytime.</p>
+        </div>
+    </section>
+
+    <hr>
+    <footer>
+        <div class="footer-content">
+            <h3>REPUBLIC OF GAMERS</h3>
+            <p>Our relentless drive to sharpen the cutting edge has reshaped the world of gaming technology. By leading the charge to adopt the latest technologies, ROG sets standards across the entire industry of gaming systems and PC components.</p>
+            <ul class="socials">
+                <li><a href="#" ><img src="assets/facebook.svg" alt=""></a></li>
+                <li><a href="#" ><img src="assets/twitter.svg" alt=""></a></li>
+                <li><a href="#" ><img  src="assets/google.svg" alt=""></a></li>
+                <li><a href="#" ><img src="assets/youtube.svg" alt=""></a></li>
+                <li><a href="#" ><img src="assets/linkedin.svg" alt=""></a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+</body>
+ <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+</html>

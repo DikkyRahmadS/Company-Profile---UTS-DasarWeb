@@ -1,0 +1,247 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    margin-top: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+  }
+  
+  ul {
+    padding-top: 8px;
+    list-style: none !important;
+  }
+  
+  a {
+    text-decoration: none !important;
+    color: #fff;
+  }
+  
+  nav {
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    align-items: center;
+    letter-spacing: 1.5px;
+    background-color: #1e1e1e;
+    padding: 15px;
+    height: 65px;
+  }
+  
+  .logo {
+    font-weight: bold;
+    color: #fff;
+    font-size: 23px;
+  }
+  
+  .logo:hover {
+    color: red !important;
+    transition: all ease 0.2s;
+  }
+
+  .logo img{
+    width: 150px;
+    height: 50px;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .menu li a {
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .menu li a:hover {
+    background-color: #fff;
+    color: red !important;
+    border-radius: 3px;
+    transition: all ease 0.4s;
+  }
+  
+  .logout {
+    color: #fff;
+  }
+  
+  .logout:hover {
+    color: red;
+    transition: all ease 0.4s;
+  }
+  
+  #about {
+    height: 100vh;
+    color: #f4f7ff;
+    background-color: #292929;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .about-media img {
+    padding-top: 30px;
+    width: 400px;
+    height: 430px;
+  }
+  
+  .about {
+    width: 50%;
+  }
+  
+  .about h1 {
+    font-size: 45px;
+    letter-spacing: 1.5px;
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 0;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    color: red;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .about p {
+    font-size: 20px;
+    letter-spacing: 1.8px;
+  }
+  
+  #product{
+    height: 80vh;
+    background-color: #fff;
+    padding-left: 70px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .product-title h1{
+    font-size: 50px;
+    letter-spacing: 5px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    padding-right: 0px;
+    padding-left: 10px;
+  }
+
+  .product-media{
+    width: 33%;
+    padding-left: 10px;
+    border-radius: 10px;
+  }
+
+  .product-media img{
+    width: 200px;
+    height: 300px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .product-media a{
+    color: #1e1e1e;
+    font-size: 20px;
+  }
+
+  .product-media p{
+    font-size: 13px;
+    color: #5b5b5b;
+  }
+
+  .product-media a:hover{
+    color: red;
+    transition: all ease 0.3s;
+  }
+  
+  * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana, sans-serif;
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        .slideshow-container {
+            max-width: 100%;
+            max-height: 90vh;
+            position: relative;
+            margin: auto;
+        }
+
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+       footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: white;
+    height: auto;
+    padding-top: 40px;
+    color: #1e1e1e;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #1e1e1e;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #1e1e1e;
+    border: 1.1px solid #1e1e1e;
+    padding: 5px;
+
+    border-radius: 50%;
+
+}
